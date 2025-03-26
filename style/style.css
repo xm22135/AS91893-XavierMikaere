@@ -3,6 +3,8 @@
     src: url();
 }
 
+
+
 body{
     margin: 0 auto;
     padding: 0 auto;
@@ -13,20 +15,22 @@ nav{
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: blauth;
-
 }
 nav img{
+    margin-left: 50px;
     width: 200px;
-    margin-right: 400px;
+    height: 75px;
 }
+
 ul{
-    overflow: hidden;
     list-style-type: none;
-    display: flex;
 }
-#current{
-    padding: 2px;
-    border-bottom: 2.5px solid #0D4287;
+li{
+    display: inline-block;
+}
+.current {
+    text-decoration: underline;
+    text-underline-offset: 6px;
 }
 li a{
     margin-right: 400px;
@@ -34,4 +38,9 @@ li a{
     color: #0D4287;
     text-decoration: none;
     font-size: 27px;
+    padding-bottom: 50px;
+}
+
+li a:hover{
+    color: #38a5b6;
 }
