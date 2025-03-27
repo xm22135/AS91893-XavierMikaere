@@ -1,3 +1,8 @@
+@font-face {
+    font-family: blauth;
+    src: url();
+}
+
 body{
     margin: 0 auto;
     padding: 0 auto;
@@ -5,59 +10,43 @@ body{
 nav{
     height: 75px;
     width:auto;
+    background-color: #DEE1EC;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-family: blauth;
-    background-size:cover;
 }
-#nav2{
-    position: relative;
-    text-align: center;
-    color: white;
-}
-#logo{
-    float:left;
+
+nav img{
+    float:right;
     margin-left: 50px;
     width: 200px;
     height: 75px;
-    background-color: #DEE1EC;
-    padding: 10px;
-    border-radius: 10px;
+    margin-right:50px;
 }
-#logo:hover{
+nav img:hover{
     scale:115%
-}
-#banner{
-    padding:0px;
-    margin: 0 auto;
-    width:100%;
-    max-height:800px;
-    object-fit: cover;
-    z-index: -1;
-    opacity: 100%;
 }
 
 ul{
-    z-index: 1;
-    position: absolute;
     list-style-type: none;
     float:left;
 }
 li{
-    padding-top: 30px;
     display: inline-block;
 }
 .current {
     text-decoration: underline;
     text-underline-offset: 6px;
-    margin-left: 100px;
+    padding-left: 300px;
 }
 li a{
-    margin-right: 200px;
+    padding-top: 10px;
+    margin-right: 300px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #0D4287;
     text-decoration: none;
     font-size: 27px;
-    padding: 10px;
+    padding-bottom: 50px;
 }
 
 li a:hover{
