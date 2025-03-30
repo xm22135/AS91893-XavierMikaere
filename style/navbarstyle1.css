@@ -21,9 +21,10 @@ nav img{
     margin-left: 50px;
     width: 200px;
     height: 75px;
+    padding-bottom: 20px;
 }
 nav img:hover{
-    scale:115%
+    scale:105%
 }
 
 ul{
@@ -36,18 +37,18 @@ li{
 .current {
     text-decoration: underline;
     text-underline-offset: 6px;
-    padding-left: 300px;
+    padding-left: 320px;
 }
 li a{
-    padding-top: 10px;
+    padding-top: 20px;
     margin-right: 300px;
     font-family: Arial, Helvetica, sans-serif;
     color: #0D4287;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 30px;
     padding-bottom: 50px;
 }
 
 li a:hover{
-    color: #38a5b6;
+    color: #FFA500;
 }

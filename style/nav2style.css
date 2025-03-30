@@ -24,7 +24,7 @@ nav{
     border-radius: 10px;
 }
 #logo:hover{
-    scale:115%
+    scale:105%
 }
 #banner{
     padding:0px;
@@ -49,17 +49,19 @@ li{
 .current {
     text-decoration: underline;
     text-underline-offset: 6px;
-    margin-left: 100px;
+    margin-left: 300px;
 }
 li a{
-    margin-right: 200px;
+    margin-right: 300px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #0D4287;
     text-decoration: none;
-    font-size: 27px;
+    font-size: 30px;
     padding: 10px;
+    background-color: #DEE1EC;
+    border-radius: 5px;
 }
 
 li a:hover{
-    color: #38a5b6;
+    color: #FFA500;
 }
