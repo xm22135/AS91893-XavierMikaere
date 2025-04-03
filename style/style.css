@@ -62,8 +62,11 @@ nav{
 }
 #socials{
     color: white;
+    text-decoration: underline;
 }
-
+#menu{
+    padding-left: 625px ;
+}
 footer {
     display: flex;
     flex-direction: row;
@@ -72,7 +75,7 @@ footer {
 
 footer ul {
     list-style-type: none;
-    line-height: 30px;
+    line-height: 50px;
 }
 
 footer li a:hover{
@@ -86,4 +89,11 @@ footer li a{
 #flex{
     display: flex;
     flex-direction: row;
+}
+#flex img{
+    width: 40px;
+}
+#socials_header{
+    text-align: center;
+    margin-left: 0px;
 }
