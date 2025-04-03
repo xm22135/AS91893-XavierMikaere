@@ -63,20 +63,27 @@ nav{
 #socials{
     color: white;
 }
-#footer{
+
+footer {
     display: flex;
-    margin: 0 auto;
-    padding: 0 auto;
-    height: 90px;
+    flex-direction: row;
     background-color: #0D4287;
 }
-#footer ul{
+
+footer ul {
     list-style-type: none;
+    line-height: 30px;
 }
-#footer li a{
+
+footer li a:hover{
+    color: #FFA500;
+    text-decoration: underline;
+}
+footer li a{
     text-decoration: none;
     color: white;
 }
-#socials li img{
-    width: 35px;
+#flex{
+    display: flex;
+    flex-direction: row;
 }
