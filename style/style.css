@@ -8,7 +8,6 @@ body{
     width: 1500px;
     margin: 0 auto;
 }
-
 header img{        
     float:left;
     margin-left: 50px;
@@ -21,12 +20,59 @@ header img:hover{
     scale:105%
 }
 section{
-    border-top: 7px solid #0D4287;
-    border-bottom: 7px solid #B1D2FD;
-    height: 400px;
+    border-top: 15px solid #0D4287;
+    border-bottom: 20px solid #B1D2FD;
     background-color: #DEE1EC;
     margin: 0 auto;
     padding: 0 auto;
+}
+#banner img{
+    padding:0px;
+    margin: 0 auto;
+    width:100%;
+    max-height:800px;
+    object-fit: cover;
+    opacity: 100%;
+}
+#banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#banner h1{
+    color: white;
+    position: absolute;
+    top: 250px;
+    font-size: 50px;
+    left: 70px;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+#banner h2{
+    position: absolute;
+    color: white;
+    top:350px;
+    left: 100px;
+}
+#main img{
+    padding: 0px;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 3.5px 0px;
+}
+#button_flex_1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 200px;
+    padding-top: 100px;
+}
+#button_flex_2{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 200px;
 }
 nav{
     height: 75px;
@@ -59,6 +105,15 @@ nav{
 }
 .nav_ul  li a:hover{
     color: #FFA500;
+}
+#main hr{
+    transform: rotate(90deg);
+    height: 200px;
+    background-color: #0D4287;
+    width: 1000px;
+    position: relative;
+    z-index: 1;
+    margin-left: -20px;
 }
 #socials{
     color: white;
