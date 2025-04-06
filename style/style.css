@@ -22,9 +22,9 @@ header img:hover{
 section{
     border-top: 15px solid #0D4287;
     border-bottom: 20px solid #B1D2FD;
-    background-color: #DEE1EC;
     margin: 0 auto;
     padding: 0 auto;
+    background-color: #DEE1EC;
 }
 #banner img{
     padding:0px;
@@ -62,6 +62,37 @@ section{
     object-fit: cover;
     border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 3.5px 0px;
+    z-index: 2;
+    position: relative;
+}
+#main a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    z-index: 3;
+    left: 230px;
+    top:360px;
+    font-size: 20px;
+}
+#hr_1{
+    transform: rotate(90deg);
+    height: 200px;
+    background-color: #0D4287;
+    width: 1730px;
+    position: relative;
+    z-index: 1;
+    margin-left: -450px;
+    top:53px
+}
+#hr_2{
+    transform: rotate(90deg);
+    height: 200px;
+    background-color: #0D4287;
+    width: 1730px;
+    position: relative;
+    z-index: 1;
+    bottom: 157px;
+    margin-right: -540px;
 }
 #button_flex_1{
     display: flex;
@@ -105,15 +136,6 @@ nav{
 }
 .nav_ul  li a:hover{
     color: #FFA500;
-}
-#main hr{
-    transform: rotate(90deg);
-    height: 200px;
-    background-color: #0D4287;
-    width: 1000px;
-    position: relative;
-    z-index: 1;
-    margin-left: -20px;
 }
 #socials{
     color: white;
