@@ -7,7 +7,9 @@ body{
 #page_container{
     width: 1500px;
     margin: 0 auto;
+    overflow: hidden;
 }
+
 header img{        
     float:left;
     margin-left: 50px;
@@ -15,6 +17,7 @@ header img{
     height: 75px;
     padding-bottom: 20px;
     padding-top: 10px;
+    margin-right: 200px;
 }
 header img:hover{
     scale:105%
@@ -26,6 +29,48 @@ section{
     padding: 0 auto;
     background-color: #DEE1EC;
 }
+.dot{
+    height:300px;
+    width:300px;
+    background-color: #B1D2FD;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+#dot_1{
+    right: 45px;
+    top:15px;
+}
+#dot_2{
+    left:700px;
+    top:10px;
+}
+#dot_3{
+    left:700px;
+    top:400px;
+}
+#dot_4{
+    left:-700px;
+    top:500px;
+}
+/*
+#dot_5{
+    left:700px;
+    top:10px;
+    z-index: -1;
+}
+#dot_6{
+    left:700px;
+    top:10px;
+    z-index: -1;
+}
+#dot_7{
+    left:700px;
+    top:10px;
+    z-index: -1;
+}
+*/
 #banner img{
     padding:0px;
     margin: 0 auto;
@@ -123,7 +168,6 @@ nav{
 #current {
     text-decoration: 2.5px underline;
     text-underline-offset: 6px;
-    padding-left: 200px;
 }
 .nav_ul li a{
     padding-top: 20px;
