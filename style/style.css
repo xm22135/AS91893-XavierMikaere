@@ -29,6 +29,33 @@ section{
     padding: 0 auto;
     background-color: #DEE1EC;
 }
+#text_boxes{
+    color: white;
+    padding: 5px;
+    z-index: 2;
+    max-width: 1000px;
+    border-radius: 15px;
+}
+#sky_tower{
+    margin-bottom:100px ;
+    background-color: #0D4287;
+    padding: 5px;
+}
+#eden_park{
+    margin-bottom:100px ;
+    background-color: #0D4287;
+    padding: 5px;
+}
+#harbour_bridge{
+    margin-bottom:100px ;
+    background-color: #0D4287;
+    padding: 5px;
+}
+#auckland_museum{
+    margin-bottom:100px ;
+    background-color: #0D4287;
+    padding: 5px;
+}
 .dot{
     height:300px;
     width:300px;
@@ -41,18 +68,23 @@ section{
 #dot_1{
     right: 45px;
     top:15px;
+    z-index: -1;
+
 }
 #dot_2{
     left:700px;
     top:10px;
+    z-index: -1;
 }
 #dot_3{
     left:700px;
     top:400px;
+    z-index: -1;
 }
 #dot_4{
     left:-700px;
     top:500px;
+    z-index: -1;
 }
 /*
 #dot_5{
