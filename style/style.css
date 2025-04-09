@@ -35,26 +35,47 @@ section{
     z-index: 2;
     max-width: 1000px;
     border-radius: 15px;
+    display: inline-block;
+}
+#text_boxes img{
+    max-width: 400px;
+    max-height: 400px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: none;
+    object-fit: cover;
 }
 #sky_tower{
     margin-bottom:100px ;
     background-color: #0D4287;
     padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
 }
 #eden_park{
     margin-bottom:100px ;
     background-color: #0D4287;
     padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
 }
 #harbour_bridge{
     margin-bottom:100px ;
     background-color: #0D4287;
     padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
 }
 #auckland_museum{
     margin-bottom:100px ;
     background-color: #0D4287;
     padding: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: flex;
 }
 .dot{
     height:300px;
