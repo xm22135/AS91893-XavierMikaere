@@ -33,48 +33,54 @@ section{
     color: white;
     padding: 5px;
     z-index: 2;
-    max-width: 1000px;
+    max-width: 1300px;
     border-radius: 15px;
 }
+#text_boxes p{
+    font-size: 20px;
+}
 #text_boxes img{
-    max-width: 400px;
-    max-height: 400px;
+    width: 500px;
+    height: 650px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     background-color: none;
     object-fit: cover;
 }
-#sky_tower{
-    margin-bottom:100px ;
+#text_boxes h1{
+    max-width: 500px;
+}
+.background_color{
     background-color: #0D4287;
-    padding: 5px;
-    display: flex;
+    padding: 10px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    max-height: 650px;
+}
+#sky_tower{
+    margin-top:50px;
+    margin-left: 200px;
+    margin-bottom:50px ;
+    padding: 5px;
+    display: flex;
 }
 #eden_park{
-    margin-bottom:100px ;
-    background-color: #0D4287;
+    margin-bottom:50px ;
+    margin-left: 200px;
     padding: 5px;
     display: flex;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 #harbour_bridge{
-    margin-bottom:100px ;
-    background-color: #0D4287;
+    margin-left: 200px;
+    margin-bottom:50px ;
     padding: 5px;
     display: flex;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 #auckland_museum{
-    margin-bottom:100px ;
-    background-color: #0D4287;
+    margin-left: 200px;
+    margin-bottom:50px ;
     padding: 5px;
     display: flex;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 #hidden{
     display: none;
