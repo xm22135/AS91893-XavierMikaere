@@ -38,6 +38,10 @@ section{
 }
 #text_boxes p{
     font-size: 20px;
+    padding: 10px;
+}
+#text_boxes h1{
+    padding: 10px;
 }
 #text_boxes img{
     width: 500px;
@@ -47,12 +51,9 @@ section{
     background-color: none;
     object-fit: cover;
 }
-#text_boxes h1{
-    max-width: 500px;
-}
+
 .background_color{
     background-color: #0D4287;
-    padding: 10px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     max-height: 650px;
@@ -61,25 +62,21 @@ section{
     margin-top:50px;
     margin-left: 200px;
     margin-bottom:50px ;
-    padding: 5px;
     display: flex;
 }
 #eden_park{
     margin-bottom:50px ;
     margin-left: 200px;
-    padding: 5px;
     display: flex;
 }
 #harbour_bridge{
     margin-left: 200px;
     margin-bottom:50px ;
-    padding: 5px;
     display: flex;
 }
 #auckland_museum{
     margin-left: 200px;
     margin-bottom:50px ;
-    padding: 5px;
     display: flex;
 }
 #hidden{
