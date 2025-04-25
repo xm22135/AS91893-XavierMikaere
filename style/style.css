@@ -51,7 +51,9 @@ section{
     background-color: none;
     object-fit: cover;
 }
-
+#text_boxes img:hover{
+    scale: 101%;
+}
 .background_color{
     background-color: #0D4287;
     border-top-right-radius: 15px;
@@ -64,6 +66,7 @@ section{
     margin-bottom:50px ;
     display: flex;
 }
+
 #eden_park{
     margin-bottom:50px ;
     margin-left: 200px;
@@ -82,53 +85,28 @@ section{
 #hidden{
     display: none;
 }
-.dot{
-    height:300px;
-    width:300px;
-    background-color: #B1D2FD;
-    border-radius: 50%;
-    position: relative;
-    display: inline-block;
-    z-index: 1;
+#fish_chips{
+    margin-top:50px;
+    margin-left: 200px;
+    margin-bottom:50px ;
+    display: flex;
 }
-#dot_1{
-    right: 45px;
-    top:15px;
-    z-index: -1;
 
+#meat_pie{
+    margin-bottom:50px ;
+    margin-left: 200px;
+    display: flex;
 }
-#dot_2{
-    left:700px;
-    top:10px;
-    z-index: -1;
+#pavlova{
+    margin-left: 200px;
+    margin-bottom:50px ;
+    display: flex;
 }
-#dot_3{
-    left:700px;
-    top:400px;
-    z-index: -1;
+#hokey_pokey{
+    margin-left: 200px;
+    margin-bottom:50px ;
+    display: flex;
 }
-#dot_4{
-    left:-700px;
-    top:500px;
-    z-index: -1;
-}
-/*
-#dot_5{
-    left:700px;
-    top:10px;
-    z-index: -1;
-}
-#dot_6{
-    left:700px;
-    top:10px;
-    z-index: -1;
-}
-#dot_7{
-    left:700px;
-    top:10px;
-    z-index: -1;
-}
-*/
 #banner img{
     padding:0px;
     margin: 0 auto;
