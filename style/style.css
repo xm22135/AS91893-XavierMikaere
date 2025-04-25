@@ -23,7 +23,7 @@ header img:hover{
     scale:105%
 }
 section{
-    border-top: 15px solid #0D4287;
+    border-top: 5px solid #0D4287;
     border-bottom: 20px solid #B1D2FD;
     margin: 0 auto;
     padding: 0 auto;
@@ -37,11 +37,14 @@ section{
     border-radius: 15px;
 }
 #text_boxes p{
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
 }
 #text_boxes h1{
-    padding: 10px;
+    text-align: center;
 }
 #text_boxes img{
     width: 500px;
@@ -62,11 +65,14 @@ section{
     border-radius: 15px;
 }
 #food_text_boxes p{
-    font-size: 22px;
+    font-size: 23px;
     padding: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+    text-align: center;
 }
 #food_text_boxes h1{
-    padding: 5px;
+    text-align: center;
     font-size: 25px;
 }
 #food_text_boxes img{
@@ -174,46 +180,51 @@ section{
     box-shadow: rgba(0, 0, 0, 0.4) 0px 3.5px 0px;
     z-index: 2;
     position: relative;
+    border: 5px solid #0D4287;
 }
 #main a{
     color: white;
     text-decoration: none;
     position: relative;
     z-index: 3;
-    left: 230px;
+    left: 240px;
     top:360px;
-    font-size: 20px;
+    font-size: 25px;
 }
 #hr_1{
     transform: rotate(90deg);
     height: 200px;
     background-color: #0D4287;
-    width: 1730px;
+    width: 1048px;
     position: relative;
     z-index: 1;
-    margin-left: -450px;
-    top:53px
+    margin-left: -100px;
+    border:none;
+    opacity: 0.9;
+    bottom: 48px;
 }
 #hr_2{
     transform: rotate(90deg);
     height: 200px;
     background-color: #0D4287;
-    width: 1730px;
+    width: 1048px;
     position: relative;
     z-index: 1;
-    bottom: 157px;
-    margin-right: -540px;
+    bottom: 256px;
+    margin-right: -200px;
+    border:none;
+    opacity: 0.9;
 }
 #button_flex_1{
     display: flex;
     flex-direction: row;
-    padding-bottom: 200px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #button_flex_2{
     display: flex;
     flex-direction: row;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
+    margin-top: -300px;
 }
 nav{
     height: 75px;
@@ -221,7 +232,6 @@ nav{
     background-color: #DEE1EC;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: blauth;
 }
 .nav_ul{
     list-style-type: none;
