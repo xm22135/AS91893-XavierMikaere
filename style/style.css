@@ -251,7 +251,9 @@ nav{
     text-decoration: underline;
 }
 #menu{
-    padding-left: 625px ;
+    padding-left: 500px ;
+    padding-right: 300px;
+    font-size: 20px;
 }
 footer {
     display: flex;
@@ -282,4 +284,8 @@ footer li a{
 #socials_header{
     text-align: center;
     margin-left: 0px;
+    font-size: 20px;
+}
+#socials img:hover{
+    scale:105%;
 }
