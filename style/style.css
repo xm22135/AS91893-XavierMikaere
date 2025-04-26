@@ -44,11 +44,12 @@ section{
     font-size: 23px;
     padding: 10px;
     padding-left: 20px;
-    padding-top: 30px;
-    text-align: center;
+    padding-top: 15px;
 }
 #text_boxes h1{
+    padding-top: 15px;
     text-align: center;
+    font-size: 30px;
 }
 #text_boxes img{
     width: 500px;
@@ -72,12 +73,10 @@ section{
     font-size: 23px;
     padding: 10px;
     padding-left: 20px;
-    padding-top: 30px;
-    text-align: center;
 }
 #food_text_boxes h1{
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
 }
 #food_text_boxes img{
     width: 500px;
@@ -257,7 +256,7 @@ nav{
     padding-top: 20px;
     margin-right: 200px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #B1D2FD;
+    color: white;
     text-decoration: none;
     font-size: 30px;
     padding-bottom: 50px;
