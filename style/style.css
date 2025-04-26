@@ -1,15 +1,14 @@
-
+/* CSS File*/
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    padding: 0 auto;
 }
 #page_container{
     width: 1500px;
     margin: 0 auto;
     overflow: hidden;
 }
-
+/* Header Styling */
 header img{        
     float:left;
     margin-left: 50px;
@@ -26,13 +25,14 @@ header img{
 header img:hover{
     scale:105%
 }
+/* Main Section Styling */
 section{
     border-top: 5px solid #B1D2FD;
     border-bottom: 20px solid #B1D2FD;
     margin: 0 auto;
-    padding: 0 auto;
     background-color: #DEE1EC;
 }
+/* Sights Text Boxes Styling */
 #text_boxes{
     color: white;
     padding: 5px;
@@ -56,12 +56,12 @@ section{
     height: 650px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-color: none;
     object-fit: cover;
 }
 #text_boxes img:hover{
     scale: 101%;
 }
+/* Food Text Boxes Styling */
 #food_text_boxes{
     color: white;
     padding: 5px;
@@ -83,7 +83,6 @@ section{
     height: 650px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-    background-color: none;
     object-fit: cover;
 }
 #food_text_boxes img:hover{
@@ -95,6 +94,7 @@ section{
     border-bottom-right-radius: 15px;
     max-height: 650px;
 }
+/* Indiviual Styling of Sights Text Boxes for Flexbox */
 #sky_tower{
     margin-top:50px;
     margin-left: 200px;
@@ -126,7 +126,7 @@ section{
     margin-bottom:50px ;
     display: flex;
 }
-
+/*Indiviual Styling of Food Text Boxes for Flexbox */
 #meat_pie{
     margin-bottom:50px ;
     margin-left: 200px;
@@ -145,6 +145,7 @@ section{
 #hokey_pokey p{
     padding-top: 20px;
 }
+/* Banner Styling */
 #banner img{
     padding:0px;
     margin: 0 auto;
@@ -173,6 +174,7 @@ section{
     top:350px;
     left: 100px;
 }
+/* Main Index Page Styling */
 #main img{
     padding: 0px;
     margin: 0 auto;
@@ -199,6 +201,7 @@ section{
     text-decoration: underline;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
 }
+/* Background Design Styling*/
 #hr_1{
     transform: rotate(90deg);
     height: 200px;
@@ -223,6 +226,7 @@ section{
     border:none;
     opacity: 0.9;
 }
+/* Flexbox for Image buttons */
 #button_flex_1{
     display: flex;
     flex-direction: row;
@@ -234,6 +238,7 @@ section{
     padding-bottom: 100px;
     margin-top: -300px;
 }
+/* Navbar Styling */
 nav{
     height: 75px;
     width:1500px;
@@ -265,6 +270,7 @@ nav{
     color: #00DFFC;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
+/* Footer Styling */
 #socials{
     color: white;
     text-decoration: underline;
