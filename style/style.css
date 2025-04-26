@@ -15,15 +15,19 @@ header img{
     margin-left: 50px;
     width: 200px;
     height: 75px;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
     margin-right: 200px;
+    background-color: #B1D2FD;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header img:hover{
     scale:105%
 }
 section{
-    border-top: 5px solid #0D4287;
+    border-top: 5px solid #B1D2FD;
     border-bottom: 20px solid #B1D2FD;
     margin: 0 auto;
     padding: 0 auto;
@@ -191,27 +195,32 @@ section{
     top:360px;
     font-size: 25px;
 }
+#main a:hover{
+    color: #00DFFC;
+    text-decoration: underline;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+}
 #hr_1{
     transform: rotate(90deg);
     height: 200px;
     background-color: #0D4287;
-    width: 1048px;
+    width: 1098px;
     position: relative;
     z-index: 1;
-    margin-left: -100px;
+    margin-left: -120px;
     border:none;
     opacity: 0.9;
-    bottom: 48px;
+    bottom: 24px;
 }
 #hr_2{
     transform: rotate(90deg);
     height: 200px;
     background-color: #0D4287;
-    width: 1048px;
+    width: 1098px;
     position: relative;
     z-index: 1;
-    bottom: 256px;
-    margin-right: -200px;
+    bottom: 231px;
+    margin-right: -235px;
     border:none;
     opacity: 0.9;
 }
@@ -223,13 +232,13 @@ section{
 #button_flex_2{
     display: flex;
     flex-direction: row;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     margin-top: -300px;
 }
 nav{
     height: 75px;
     width:1500px;
-    background-color: #DEE1EC;
+    background-color: #0D4287;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -248,13 +257,14 @@ nav{
     padding-top: 20px;
     margin-right: 200px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #0D4287;
+    color: #B1D2FD;
     text-decoration: none;
     font-size: 30px;
     padding-bottom: 50px;
 }
 .nav_ul  li a:hover{
-    color: #FFA500;
+    color: #00DFFC;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 #socials{
     color: white;
@@ -277,16 +287,25 @@ footer ul {
 }
 
 footer li a:hover{
-    color: #FFA500;
+    color: #00DFFC;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
     text-decoration: underline;
 }
 footer li a{
     text-decoration: none;
     color: white;
 }
-#flex{
+#menu_current{
+    text-decoration: underline;
+}
+#socials_flex{
     display: flex;
     flex-direction: row;
+}
+#socials_flex_2{
+    display: flex;
+    flex-direction: row;
+    margin-top:-20px;
 }
 #flex img{
     width: 40px;
